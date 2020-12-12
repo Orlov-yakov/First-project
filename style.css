@@ -1,0 +1,328 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body {
+    padding: 0 10px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-man {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #eee;
+    border: 1p solid transparent;
+    background-image: url(img/slider.png);
+    height: 660px;
+    background-repeat: no-repeat;
+}
+
+.container-sale {}
+
+.main-header {
+    border-bottom: 1px solid #eee;
+    height: 70px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+form {
+    display: flex;
+    align-items: stretch;
+}
+
+form button {
+    padding: 10px 5px;
+}
+
+.basket {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bran-logo {
+    font-family: Lato;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.d-logo {
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.browse {
+    width: 87px;
+    height: 38px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    Text: Browse;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.search-button {
+    height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.fa-caret-down {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #838383;
+}
+
+.fa-search {
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+}
+
+.button-browse {
+    height: 38px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+.input {
+    width: 317px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.myacc {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    Text: My Account;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+nav {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+nav a:not(:last-of-type) {
+    margin-right: 50px;
+}
+
+.man {}
+
+.the-brand {
+    font-family: Lato;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    margin: 0;
+    padding-top: 200px;
+    margin-left: 25px;
+}
+
+.of-luxerious {
+    font-family: Lato;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    display: block;
+}
+
+.fashion {
+    font-family: Lato;
+    font-size: 40px;
+    color: #f16d7f;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 24px;
+}
+
+h1::before {
+    content: '';
+    display: block;
+    background-color: #f16d7f;
+    width: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    height: 98px;
+}
+
+.section-card {
+    padding-top: 98px;
+}
+
+.card {
+    position: relative;
+    margin-right: 21px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.card span {
+    display: block;
+}
+
+.cards-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-black {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.card-pink {
+    font-family: Lato;
+    font-size: 30px;
+    color: #f16d7f;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.fetured {
+    padding-top: 100px;
+}
+
+.card-f {
+    margin-right: 24px;
+    margin-bottom: 75px;
+}
+
+.mango {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    margin-left: 8px;
+}
+
+.value {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.cards-wrapper-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.browse-all {
+    padding: 0;
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    Text: Browse All Product;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.button-browse-all {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+.column {
+    width: 12px;
+    height: 100px;
+    background-color: #f16d7f;
+    position: absolute;
+    margin-top: -105px;
+}
+
+.man-p {
+    margin: 0;
+    margin-left: 25px;
+}
+*/
+
+
+/*
+.container {
+    position: relative;
+}*/
