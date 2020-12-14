@@ -22,7 +22,111 @@
     background-repeat: no-repeat;
 }
 
-.container-sale {}
+.sale {
+    padding-top: 113px;
+}
+
+.container-sale {
+    background-image: url(img/sale-right.png);
+    background-repeat: no-repeat;
+    height: 529px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.sale-left p {
+    position: absolute;
+    margin-top: -405px;
+    margin-left: 40px;
+}
+
+.sale-30 {
+    font-family: Lato;
+    font-size: 53.7px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.offer {
+    font-family: Lato;
+    font-size: 53.7px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.for-women {
+    font-family: Lato;
+    font-size: 32.2px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+}
+
+.sale-column {
+    position: relative;
+}
+
+.car {
+    position: absolute;
+    top: -495px;
+    margin-left: 800px;
+}
+
+.percent {
+    position: absolute;
+    top: -340px;
+    margin-left: 800px;
+}
+
+.crown {
+    position: absolute;
+    top: -190px;
+    margin-left: 800px;
+}
+
+.free {
+    position: absolute;
+    margin-top: -499px;
+    margin-left: 880px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.sales {
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 880px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.quality {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 880px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
 
 .main-header {
     border-bottom: 1px solid #eee;
@@ -304,25 +408,3 @@ h1::before {
     display: flex;
     justify-content: center;
 }
-
-
-/*
-.column {
-    width: 12px;
-    height: 100px;
-    background-color: #f16d7f;
-    position: absolute;
-    margin-top: -105px;
-}
-
-.man-p {
-    margin: 0;
-    margin-left: 25px;
-}
-*/
-
-
-/*
-.container {
-    position: relative;
-}*/
